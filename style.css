@@ -1,0 +1,147 @@
+body {
+  background-color: #7880fa; 
+}
+h1{
+  font-family: 'Space Mono', monospace;
+  background-color: #7880fa;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+}
+
+h5{
+  font-family: 'Space Mono', monospace;
+}
+
+h6{
+  font-family: 'Space Mono', monospace;
+  text-align: left;
+  margin: 10px;
+}
+
+footer{
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+}
+
+button{
+  font-family: 'Jura', sans-serif;
+  box-shadow: 6px 5px 10px grey;
+}
+button:hover {
+  background-color: #FF94BC;
+  box-shadow: 6px 5px 10px ;
+}
+
+#submit{
+  background-color: #ecff72;
+  font-family: 'Jura', sans-serif;
+  box-shadow: 6px 5px 10px grey;
+  border-radius: 5px;
+  border:none;
+}
+
+#submit:hover{
+  background-color: #FF94BC;
+  box-shadow: 6px 5px 10px ;
+}
+#incorrectGuess{
+  font-family: 'Jura', sans-serif;
+}
+
+.btn{
+  background-color: #f1ff94;
+}
+#sections{
+  display: flex;
+}
+#categories{
+  width: 490px;
+  height: 404px;
+  border: none;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+#hangman{
+  width: 457px;
+  height: 404px;
+  border: 2px solid;
+  background-color: white;
+}
+
+#guess{
+  width: 490px;
+  height: 404px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border:none;
+}
+
+#message{
+  height: 125px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border: none;
+}
+#message div{
+  background-color: #c3bbf7;
+  border: solid;
+  width: 40px;
+  height: 40px;
+  margin: 27px;
+  padding: 4px;
+  text-align: center;
+  box-shadow: 6px 5px 10px #575757;
+
+}
+#hiddenMsg{
+  border-bottom: solid black;
+  display: flex;
+}
+#letters{
+  border: none;
+  height: 200px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.show{
+  visibility: none;
+}
+
+.disable-letters{
+  pointer-events: none;
+}
+
+#endGameMsg{
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+li{
+  font-family: 'Cutive Mono', monospace;
+  text-align: left;
+  
+}
+
+ul{
+  background: #FF94BC;
+  height: 0px;
+  width: 440px;
+  margin: 8px;
+  transition: height 1s;
+  border-radius: 5px;
+}
+
+ul:hover{
+  height: 150px;
+  box-shadow: 6px 5px 10px #575757;
+}
+
